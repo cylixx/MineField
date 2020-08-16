@@ -83,7 +83,7 @@ class Exploder {
 			}
 			//System.out.println(String.format("Max exploded = %s, Node = %s", total, source.toString()));
 		}
-
+		result.setCountExplotions(result.getCountExplotions() + 1);
 		return result;
 	}
 	   
